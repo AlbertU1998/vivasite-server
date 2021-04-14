@@ -1,19 +1,20 @@
-import * as TreeType from './TreeTypes'
+import * as TT from './TreeTypes'
 
+// Tree Functions (TF)
 export default class TF {
     // this requires a faster (lexographic binary search) implementation
-    static hasTreeWithName: TreeType.HTN = (name, treeList, idx) => {
+    static hasTreeWithName: TT.HTN = (name, treeList, idx) => {
         if (treeList.length === 0) return [false, -1];
         if (treeList[0].name === name) return [true, idx];
         return TF.hasTreeWithName(name, treeList.slice(1), idx + 1);
     }
 
-    static createChild: TreeType.CC = (hasChildren, name, children) => {
+    static createChild: TT.CC = (hasChildren, name, children) => {
         return { hasChildren, name, children }
     }
 
     // takes the separaeted path and add sit to tree
-    static insertPath: TreeType.IP = (names, root) => {
+    static insertPath: TT.IP = (names, root) => {
         // no more path to insert
         if (names.length === 0) return root;
 
@@ -38,7 +39,7 @@ export default class TF {
         return TF.createChild( true, root.name, newChildren );
     }
 
-    static traverse: TreeType.Traverse = (root) => {
+    static traverse: TT.Traverse = (root) => {
         if (!root.hasChildren) {
             return [root.name]
         }
@@ -54,7 +55,7 @@ export default class TF {
         }, []);
     }
 
-    static getChildWithPath: TreeType.GCP = (names, root) => {
+    static getChildWithPath: TT.GCP = (names, root) => {
         // child found
         if (names.length === 0) return root;
 
@@ -65,9 +66,12 @@ export default class TF {
         return TF.getChildWithPath(names.slice(1), root.children[childIdx])
     }
 
-    static narrowTraverse: TreeType.NT = (path, root) => {
-        return TF.getChildWithPath(path.split("/"), root).children.reduce((acc: string[], child) => {
-            return acc.concat([child.name])
+    static narrowTraverse: TT.NT = (path, root) => {
+        return TF.getChildWithPath(path.split("/"), root).children.reduce((acc: TT.Path[], child) => {
+            return acc.concat([{
+                "isEndpoint": !child.hasChildren, 
+                "path": child.name
+            }])
         }, []);
     }
 

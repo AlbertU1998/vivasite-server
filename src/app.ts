@@ -34,15 +34,15 @@ app.use(express.json());
 
 app.post('/api', (req, res) => {
     console.log(req.body.path);
-    const children = TF.narrowTraverse(req.body.path, pathTree);
-    if (children.length === 0)
-        console.log("yeeeet");
+    if (req.body.path.split(".").length === 2) {
+        const sliderjson = fs.readFileSync(__dirname + "/../newsliderinfo/" + req.body.path).toString();
+        res.send(JSON.parse(sliderjson));
+    }
     else
-        res.send(children);
+        res.send(TF.narrowTraverse(req.body.path, pathTree));
 });
 
 app.get('/test', (req, res) => {
-    res.send(TF.narrowTraverse("VIVA", pathTree));
 })
 
 app.listen(port, () => {

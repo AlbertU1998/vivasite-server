@@ -19,5 +19,10 @@ export type Traverse = (root: Tree) => string[];
 // getChildWithPath
 export type GCP = (names: string[], root: Tree) => Tree;
 
+export type Path = {
+    "isEndpoint": boolean; 
+    "path": string;
+}
+
 // narrowTraverse
-export type NT = (path: string, root: Tree) => string[];
+export type NT = (path: string, root: Tree) => Path[];
