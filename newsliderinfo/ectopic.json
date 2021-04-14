@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Gynaecology/Ovary/Emergency/Ectopic",
+    "title": "ectopic pregnancy",
+
+    "Definition": "impkantation of the fertilised ovum outside of the uterine cavity",
+    "Aetiology": "",
+    "Epidemiology": "1/100 females",
+    "Symptoms": "Abdominal Pain, PV bleeding, Nausea and Vomiting",
+    "Complications": "Rupture, Peritonitis",
+    "RiskFactors": "Pelvic inflammatory disease, IUD usage, previous ectopic",
+    "Investigations": "TVUSS, PV exam, Serial beta-hcg",
+    "Management": "Salpingectomy, salpingotomy, methotrexate"
+}

@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Paediatrics/Neonatology/Jaundice",
+    "title": "Neonatal Jaundice",
+
+    "Definition": "",
+    "Aetiology": "< 24hrs ==> Haemolytic disorderrs, congenital infection",
+    "Epidemiology": "",
+    "Symptoms": "",
+    "Complications": "Kernicterus (bilirubin deposition in the basal ganglia, cerrebral palsy)",
+    "RiskFactors": "",
+    "Investigations": "<24hrs ==> group and DAT, serum bilirubin, blood culture",
+    "Management": "Phototherapy (coverts bilrubin into water soluble pigment) also exchange transfusion"
+}

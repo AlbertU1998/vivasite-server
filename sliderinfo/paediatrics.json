@@ -1,0 +1,7 @@
+{
+    "title": "Paediatrics",
+    "children" : [
+        { "title" : "Neonatal", "source" : "neonatal.json" },
+        { "title" : "Respiratory", "source" : "paedsRespiratory.json" }
+    ]
+}

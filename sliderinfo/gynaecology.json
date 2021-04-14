@@ -1,0 +1,8 @@
+{
+    "title": "Gynaecology",
+    "children" : [
+        { "title" : "Ovary", "source" : "ovary.json" },
+        { "title" : "Uterus", "source" : "uterus.json" },
+        { "title" : "Vagina", "source" : "vagina.json" }
+    ]
+}

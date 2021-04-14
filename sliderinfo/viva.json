@@ -1,0 +1,9 @@
+{
+    "title": "VIVA",
+    "children" : [
+        { "title" : "Obstetrics", "source" : "obstetrics.json" },
+        { "title" : "Gynaecology", "source" : "gynaecology.json" },
+        { "title" : "Paediatrics", "source" : "paediatrics.json" },
+        { "title" : "Psychiatry", "source" : "psychiatry.json" }
+    ]
+}

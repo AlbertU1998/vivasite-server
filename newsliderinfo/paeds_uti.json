@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Paediatrics/Urology/Paediatric UTI",
+    "title": "Paediatric UTI",
+
+    "Definition": "Infection of urinary tract",
+    "Aetiology": "E coli commenst organism",
+    "Epidemiology": "Commensest bacterial disease of childhoof",
+    "Symptoms": "< 3 months ==> fever vomiting, lethargy, poor feeding. > 3months ==> more typical",
+    "Complications": "Pyelonephritis (abdo pain, high fever), cef+ genta, admit",
+    "RiskFactors": "Antnomical, incoimmplete voiding, low fluids, constipation (phsyical obstruction)",
+    "Investigations": "Urine dip, if atypical features (not ecoli, flow, creatinine, mass, refracoty) renal USS",
+    "Management": "leucocytes AND Nitrites ? start abx, leucocytes ? get cultures start therapy if <3 years, nitrites ? treat"
+}

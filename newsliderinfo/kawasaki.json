@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Paediatrics/Vasculitis/Kawasaki",
+    "title": "Kawasaki Disease",
+
+    "Definition": "Five day fever + conjunctivits, cracked lips, peeling of skin, red palms and soles, glossitis",
+    "Aetiology": "Systemic vasculitis",
+    "Epidemiology": "",
+    "Symptoms": "",
+    "Complications": "cornoary artery aneurysm (long term)",
+    "RiskFactors": "",
+    "Investigations": "Echo at 6 weeks for above complication",
+    "Management": "IVIG + aspirin (only time in paediatrics)"
+}

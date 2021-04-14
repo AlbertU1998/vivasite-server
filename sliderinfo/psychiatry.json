@@ -1,0 +1,9 @@
+{
+    "title": "Psychiatry",
+    "children" : [
+        { "title" : "Mood", "source" : "mood.json" },
+        { "title" : "Anxiety", "source" : "anxiety.json" },
+        { "title" : "Personality", "source" : "personality.json" },
+        { "title" : "Psychosis", "source" : "psychosis.json" }
+    ]
+}
