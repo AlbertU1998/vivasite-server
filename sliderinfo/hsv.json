@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Obstetrics/Infection/HSV",
+    "title": "Herpes Simplex Virus",
+
+    "Definition": "Infection with HSV",
+    "Aetiology": "DNA virus, HSV-1 ==> oral, HSV-2 ==> genital",
+    "Epidemiology": "2% of pregnant women",
+    "Symptoms": "Maternal ==> Oral, genital, disseminated. Neonatal ==> CNS, Dissmeinated, Skin, eye, mouth disease",
+    "Complications": "Neonatal infection, 41% risk if primary leaison, 2% if recurrent. Transplacental infection is possible",
+    "RiskFactors": "",
+    "Investigations": "Clinical diagnosis, PCR",
+    "Management": "Primary infection ==> <26wks start aciclovir at 36wks, >26wks begin immediately. Delivery ==> EDD within 6wks then caesarean "
+}

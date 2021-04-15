@@ -1,7 +1,0 @@
-{
-    "title": "Obstetrics",
-    "children" : [
-        { "title" : "Labour", "source" : "labour.json" },
-        { "title" : "Antepartum", "source" : "antepartum.json" }
-    ]
-}

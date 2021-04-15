@@ -7,12 +7,12 @@ import { infoType } from './types'
 const app = express()
 const port = 3000;
 
-const fileNames =  fs.readdirSync(__dirname + "/../newsliderinfo");
+const fileNames =  fs.readdirSync(__dirname + "/../sliderinfo");
 const paths = fileNames.reduce(
     (acc, fileName) => {
         const module: infoType = JSON.parse(
             fs.readFileSync(
-                __dirname + "/../newsliderinfo/" + fileName, "utf8"
+                __dirname + "/../sliderinfo/" + fileName, "utf8"
             )
         );
         return acc.concat([module.path]);
@@ -35,7 +35,7 @@ app.use(express.json());
 app.post('/api', (req, res) => {
     console.log(req.body.path);
     if (req.body.path.split(".").length === 2) {
-        const sliderjson = fs.readFileSync(__dirname + "/../newsliderinfo/" + req.body.path).toString();
+        const sliderjson = fs.readFileSync(__dirname + "/../sliderinfo/" + req.body.path).toString();
         res.send(JSON.parse(sliderjson));
     }
     else

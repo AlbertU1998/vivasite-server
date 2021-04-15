@@ -1,8 +1,0 @@
-{
-    "title": "Personality",
-    "children" : [
-        { "title" : "Cluster A", "source" : "clustera.json" },
-        { "title" : "Cluster B", "source" : "clusterb.json" },
-        { "title" : "Cluster C", "source" : "clusterc.json" }
-    ]
-}

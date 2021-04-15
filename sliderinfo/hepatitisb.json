@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Obstetrics/Infection/HepatitisB",
+    "title": "Hepatitis B",
+
+    "Definition": "Infection caused by HBV",
+    "Aetiology": "",
+    "Epidemiology": "Vertical transmisison 20% (90% if bAg +ve)",
+    "Symptoms": "",
+    "Complications": "",
+    "RiskFactors": "",
+    "Investigations": "Montitor viral load every two months with LFTs every month",
+    "Management": "If viral load > 10IU/ml in 3rd trimester, tenofovir. Cease 4 - 12 weeks postnatal"
+}

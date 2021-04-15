@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Obstetrics/Infection/Parvovirus",
+    "title": "Parvovirus B19",
+
+    "Definition": "Infection by parvovirus B19 ssDNA virus",
+    "Aetiology": "Aerosol / blood bourne",
+    "Epidemiology": "Common, 60% immunity in adults at 20",
+    "Symptoms": "Eryhtema infectiosum 'slapped cheek', fever, arthralgia, ",
+    "Complications": "virus crosses placenta and destroys RBCs ==> hyrpops fetalis",
+    "RiskFactors": "",
+    "Investigations": "Antibodies and Rubella serology (similar presentation), serial USS scans",
+    "Management": "Intrauterine transfusions"
+}

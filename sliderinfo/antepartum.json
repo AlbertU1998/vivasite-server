@@ -1,7 +1,0 @@
-{
-    "title": "Antepartum",
-    "children" : [
-        { "title" : "Pre-eclampsia", "source" : "preeclampsia.json" },
-        { "title" : "PPH", "source" : "pph.json" }
-    ]
-}

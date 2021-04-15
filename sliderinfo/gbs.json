@@ -1,0 +1,13 @@
+{
+    "path": "VIVA/Obstetrics/Infection/GBS",
+    "title": "Group-B Streptococcus",
+
+    "Definition": "Infection with streptococcus agalacticae",
+    "Aetiology": "Commensal of the vagina and rectum, gram +ve coccus in chains, commenest cause of neonatal infection",
+    "Epidemiology": "25% of women are carriers",
+    "Symptoms": "Frequently incidental finding",
+    "Complications": "",
+    "RiskFactors": "PPROM, intrapartum fever, Previous GBS, prematurity",
+    "Investigations": "",
+    "Management": "No prophylaxis unless there are risk facotrs, intrapartum abx ==> IV Benzylpenicillin"
+}
